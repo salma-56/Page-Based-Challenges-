@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reading.HomePageController">
+   <children>
+      <Button fx:id="openReadingList" layoutX="125.0" layoutY="109.0" mnemonicParsing="false" onAction="#openReadingList" prefHeight="62.0" prefWidth="331.0" text="Chapter 1: Reading List">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+      <Button fx:id="openChallengeList" layoutX="124.0" layoutY="192.0" mnemonicParsing="false" onAction="#openChallenges" prefHeight="62.0" prefWidth="331.0" text="Chapter 2: Challenges">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+      <Button fx:id="openTimer" layoutX="126.0" layoutY="275.0" mnemonicParsing="false" onAction="#openTimer" prefHeight="62.0" prefWidth="331.0" text="Chapter 3: Timer">
+         <font>
+            <Font size="10.0" />
+         </font></Button>
+      <Text fx:id="contentsPageText" layoutX="196.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONTENTS" underline="true" wrappingWidth="207.13671875">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Text>
+      <HBox fx:id="marginBox" layoutX="14.0" layoutY="-1.0" prefHeight="403.0" prefWidth="55.0" />
+      <Circle fill="#faf3d7" layoutX="161.0" layoutY="140.0" radius="8.0" stroke="#faf3d7" strokeType="INSIDE" />
+      <Circle fill="#faf3d7" layoutX="161.0" layoutY="223.0" radius="8.0" stroke="#faf3d7" strokeType="INSIDE" />
+      <Circle fill="#faf3d7" layoutX="161.0" layoutY="306.0" radius="8.0" stroke="#faf3d7" strokeType="INSIDE" />
+      <Polyline fill="PINK" layoutX="110.0" layoutY="154.0" points="4.0, -8.0, 10.5, 3.0, -6.0, 23.5, -23.0, 3.0" stroke="PINK" strokeType="INSIDE" />
+      <Circle fill="PINK" layoutX="124.0" layoutY="148.0" radius="11.0" stroke="PINK" strokeType="INSIDE" />
+      <Line endX="-16.0" endY="8.0" layoutX="169.0" layoutY="132.0" startX="-45.0" startY="16.0" stroke="PINK" />
+      <Line endX="-15.0" endY="1.0" layoutX="128.0" layoutY="147.0" startX="-7.5" startY="12.0" stroke="#ae9292" />
+      <Line endX="-70.5" endY="9.0" layoutX="184.0" layoutY="140.0" startX="-91.5" startY="23.5" stroke="#d39fa9" />
+      <Line endX="-78.25" endY="1.25" layoutX="194.0" layoutY="150.0" startX="-97.0" startY="19.5" stroke="#d39fa9" />
+      <Polyline fill="#98abf3" layoutX="113.0" layoutY="240.0" points="4.0, -8.0, 10.5, 3.0, -6.0, 23.5, -23.0, 3.0" stroke="#98abf3" strokeType="INSIDE" />
+      <Circle fill="#98abf3" layoutX="127.0" layoutY="234.0" radius="11.0" stroke="#98abf3" strokeType="INSIDE" />
+      <Line endX="-16.0" endY="8.0" layoutX="172.0" layoutY="218.0" startX="-45.0" startY="16.0" stroke="#98abf3" />
+      <Line endX="-70.5" endY="9.0" layoutX="187.0" layoutY="226.0" startX="-91.5" startY="23.5" stroke="#7892ed" />
+      <Polyline fill="#b08cef" layoutX="116.0" layoutY="323.0" points="4.0, -8.0, 10.5, 3.0, -6.0, 23.5, -23.0, 3.0" stroke="#b08cef" strokeType="INSIDE" />
+      <Circle fill="#b08cef" layoutX="130.0" layoutY="317.0" radius="11.0" stroke="#b08cef" strokeType="INSIDE" />
+      <Line endX="-16.0" endY="8.0" layoutX="175.0" layoutY="301.0" startX="-45.0" startY="16.0" stroke="#b08cef" />
+      <Line endX="-70.5" endY="9.0" layoutX="190.0" layoutY="309.0" startX="-91.5" startY="23.5" stroke="#a759bd" />
+      <Line endX="-80.25" endY="3.875" layoutX="200.0" layoutY="237.0" startX="-97.0" startY="19.5" stroke="#7892ed99" />
+      <Line endX="-76.646484375" endY="3.75" layoutX="200.0" layoutY="319.0" startX="-96.0" startY="20.0" stroke="#a759bd8a" />
+      <Line endX="-78.0" endY="-2.0" layoutX="197.0" layoutY="319.0" startX="-70.0" startY="9.0" stroke="#a759bd" />
+      <Line endX="-82.79290771484375" endY="-85.0" layoutX="197.0" layoutY="319.0" startX="-73.0" startY="-74.0" stroke="#7892ed" />
+      <Button fx:id="logout" layoutX="274.0" layoutY="361.0" mnemonicParsing="false" onAction="#logout" text="Log out" />
+   </children>
+</AnchorPane>

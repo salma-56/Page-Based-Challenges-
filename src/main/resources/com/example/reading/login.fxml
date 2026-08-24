@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="424.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reading.user.LoginController">
+   <children>
+      <AnchorPane fx:id="loginBox" layoutX="121.0" layoutY="170.0" prefHeight="216.0" prefWidth="342.0">
+         <children>
+            <PasswordField fx:id="passwordField" layoutX="30.0" layoutY="102.0" prefHeight="42.0" prefWidth="266.0" promptText="Password" />
+            <TextField fx:id="usernameField" layoutX="30.0" layoutY="46.0" prefHeight="42.0" prefWidth="266.0" promptText="Username" />
+            <Label fx:id="usernameAsterisk" layoutX="302.0" layoutY="59.0" prefHeight="17.0" prefWidth="14.0" text="*" />
+            <Label fx:id="passwordAsterisk" layoutX="302.0" layoutY="107.0" prefHeight="17.0" prefWidth="14.0" text="*" />
+            <Text fx:id="loginTitle" layoutX="17.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="This book belongs to:" wrappingWidth="215.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Text>
+            <HBox fx:id="bulletPoint1" layoutX="10.0" layoutY="59.0" prefHeight="16.0" prefWidth="14.0" />
+            <HBox fx:id="bulletPoint2" layoutX="10.0" layoutY="115.0" prefHeight="16.0" prefWidth="14.0" />
+            <Button fx:id="loginButton" layoutX="124.0" layoutY="163.0" mnemonicParsing="false" onAction="#login" prefHeight="31.0" prefWidth="78.0" text="Login" />
+            <Label fx:id="confirmationLabel" layoutX="114.0" layoutY="194.0" prefHeight="17.0" prefWidth="114.0" text="Unsuccessful Log in." textAlignment="CENTER" />
+            <Button fx:id="newUserButton" layoutX="244.0" layoutY="11.0" mnemonicParsing="false" onAction="#createAccount" text="New user?" />
+         </children>
+      </AnchorPane>
+      <HBox fx:id="marginBox" layoutX="29.0" prefHeight="400.0" prefWidth="53.0" />
+      <VBox layoutX="116.0" layoutY="41.0" prefHeight="85.0" prefWidth="342.0">
+         <children>
+            <AnchorPane fx:id="anchorTitle" prefHeight="85.0" prefWidth="345.0">
+               <children>
+                  <Line endX="181.5" layoutX="84.0" layoutY="13.0" startX="-32.5" stroke="#dcd0b3" />
+                  <Line endX="111.0" fill="#dcd0b3" layoutX="157.0" layoutY="71.0" startX="-106.0" stroke="#dcd0b3" />
+                  <Text fx:id="loginText" layoutX="88.0" layoutY="57.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TalesNok" wrappingWidth="166.63671875">
+                     <font>
+                        <Font size="37.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

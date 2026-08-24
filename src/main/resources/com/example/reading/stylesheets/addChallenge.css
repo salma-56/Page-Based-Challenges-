@@ -1,0 +1,23 @@
+.root {
+    -fx-background-color: #faf3d7;
+}
+
+#randomiseButton, #reset , #backButton{
+    -fx-background-color: #e1c4a5 ;
+}
+#addChallenge {
+    -fx-background-color: #9eecb0;
+}
+
+Text{
+    -fx-font-family: "Palatino Linotype", Georgia;
+}
+
+.choice-box{
+    -fx-background-color: pink;
+}
+
+#counterLabel {
+    -fx-font-family: "Palatino Linotype", Georgia;
+    -fx-font-size: 15;
+}

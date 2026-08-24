@@ -1,0 +1,11 @@
+.root{
+    -fx-background-color: #faf6e9;;
+}
+
+.button{
+    -fx-background-color: pink;
+}
+
+.separator .line{
+    -fx-border-color: null;
+}

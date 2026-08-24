@@ -1,0 +1,28 @@
+.root {
+    -fx-background-color: #faf3d7;
+}
+
+#addBookButton{
+    -fx-background-color: #9eecb0;
+}
+
+#backButton {
+    -fx-background-color: #e1c4a5;
+}
+
+#toggle {
+    -fx-background-color: #e6ade6;
+}
+
+Text{
+    -fx-font-family: "Palatino Linotype", Georgia;
+}
+
+#addBookManuallyTitle {
+    -fx-font-weight: bold;
+}
+
+.label{
+    -fx-font-size: 15;
+    -fx-font-family: Georgia, "Palatino Linotype";
+}

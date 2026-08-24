@@ -1,0 +1,19 @@
+.root {
+    -fx-background-color: #faf3d7;
+}
+
+#backButton {
+    -fx-background-color: #e1c4a5;
+}
+
+#updateButton {
+    -fx-background-color: #b2f3a9;
+}
+
+.label {
+    -fx-font-family: "Palatino Linotype", Georgia;
+}
+
+.progress-bar{
+    -fx-accent : #b3848d;
+}

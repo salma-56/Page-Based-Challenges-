@@ -1,0 +1,31 @@
+.root{
+    -fx-background-color: #faf6e9;
+}
+
+Text, #loginText{
+    -fx-font-family: "Palatino Linotype",Georgia;
+}
+
+#create{
+    -fx-background-color: #9eecb0;
+}
+
+#login{
+    -fx-background-color: #e1c4a5 ;
+}
+
+#dateText, #bookMessage{
+    -fx-font-family: "Brush Script MT", "Palatino Linotype", Georgia;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+HBox{
+    -fx-shape: "M10 3A1 1 0 007 3L10 3";
+    -fx-border-color: #f6e1d0;
+    -fx-background-color: #f6e1d0;
+}
+
+#loginBox {
+    -fx-border-color: #f6e1d0;
+    -fx-background-color: #f6e1d0;
+}

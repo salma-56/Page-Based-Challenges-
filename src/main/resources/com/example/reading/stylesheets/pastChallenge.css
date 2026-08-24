@@ -1,0 +1,23 @@
+.root{
+    -fx-background-color: #faf3d7;
+}
+
+.button {
+    -fx-background-color: #e1c4a5;
+}
+
+Text{
+    -fx-font-family: "Palatino Linotype", Georgia;
+}
+
+.list-view {
+    -fx-background-color: #faf3d7 ;
+}
+
+.list-cell:even{
+    -fx-background-color: #faf3d7;
+}
+
+.list-cell:odd{
+    -fx-background-color: #faf3d7;
+}

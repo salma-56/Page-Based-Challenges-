@@ -1,0 +1,39 @@
+.root{
+    -fx-background-color: #faf6e9;;
+}
+
+Text{
+    -fx-font-family: "Palatino Linotype", Georgia;
+}
+
+
+.button{
+    -fx-background-color: #e1c4a5;
+}
+
+.default-color1.chart-pie {
+    -fx-pie-color: #9eecb0;
+}
+
+.default-color0.chart-pie{
+    -fx-pie-color: #f55a5a;
+}
+
+.default-color2.chart-pie{
+    -fx-pie-color: #efc36d;
+}
+
+.chart-legend {
+    -fx-background-color: #faf6e9;
+}
+
+#anchor1, #anchor2{
+    -fx-border-color: #e1c4a5;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-border-width: 0.8;
+}
+
+#text1, #text2{
+    -fx-font-weight: bold;
+}

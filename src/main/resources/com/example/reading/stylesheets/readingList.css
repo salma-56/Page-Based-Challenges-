@@ -1,0 +1,57 @@
+.root{
+    -fx-background-color: #faf3d7;
+
+}
+
+.label{
+    -fx-font-size: 15;
+    -fx-font-family: Georgia, Verdana, "Times New Roman";
+
+}
+
+Text{
+    -fx-font-family: "Palatino Linotype", Georgia;
+}
+#myBooksTitle{
+    -fx-font-size: 20;
+    -fx-font-family: "Palatino Linotype", Georgia;
+    -fx-font-weight: bold;
+}
+
+#addBookButton {
+    -fx-background-color: #97d597;
+}
+
+#removeBookButton{
+    -fx-background-color: #ee7878;
+}
+
+/*Changes border of list*/
+#bookListView {
+    -fx-background-color: #faf3d7;
+}
+
+#bookListView .scroll-bar .thumb{
+    -fx-background-color: #eee8aa;
+}
+
+#bookListView .scroll-bar .track {
+    -fx-background-color: #352006;
+}
+
+.list-cell:even{
+    -fx-background-color: #C4A484;
+}
+
+.list-cell:odd{
+-fx-background-color: #e1c4a5;
+}
+
+#backButton {
+    -fx-background-color: #e1c4a5;
+}
+
+
+
+
+

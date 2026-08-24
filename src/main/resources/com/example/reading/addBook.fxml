@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="424.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reading.readingList.AddBookController">
+   <children>
+      <Button fx:id="addBookButton" layoutX="226.0" layoutY="272.0" mnemonicParsing="false" onAction="#addBook" prefHeight="34.0" prefWidth="124.0" text="Add Book" />
+      <TextField fx:id="bookTitleField" layoutX="146.0" layoutY="132.0" prefHeight="45.0" prefWidth="279.0" promptText="Book Title" />
+      <TextField fx:id="authorField" layoutX="146.0" layoutY="198.0" prefHeight="45.0" prefWidth="279.0" promptText="Author" />
+      <Button fx:id="backButton" layoutX="47.0" layoutY="371.0" mnemonicParsing="false" onAction="#backButton" prefHeight="32.0" prefWidth="66.0" text="Back" />
+      <Text fx:id="addBookManuallyTitle" layoutX="95.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Book Manually" wrappingWidth="261.06640625">
+         <font>
+            <Font size="25.0" />
+         </font></Text>
+      <Label fx:id="bookTitleAsterisk" layoutX="443.0" layoutY="146.0" text="Label" />
+      <Label fx:id="confirmLabel" layoutX="183.0" layoutY="331.0" prefHeight="26.0" prefWidth="235.0" textAlignment="CENTER" />
+      <Label fx:id="authorNameAsterisk" layoutX="443.0" layoutY="213.0" text="Label" />
+      <ToggleButton fx:id="toggle" layoutX="454.0" layoutY="53.0" mnemonicParsing="false" onAction="#toggleApi" prefHeight="25.0" prefWidth="89.0" text="Book Search">
+         <tooltip>
+            <Tooltip text="This allows you to search for books to add them to your library." />
+         </tooltip></ToggleButton>
+      <Text layoutX="47.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add a book manually. No search required." wrappingWidth="332.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+      <Polyline fill="BLACK" layoutX="52.0" layoutY="71.0" points="5.0, -46.5, 5.0, -32.5, -32.5, -7.5, -39.0, -19.0" strokeType="INSIDE" />
+      <Polyline fill="BLACK" layoutX="85.0" layoutY="36.0" points="-18.0, 18.8134765625, -5.0, 11.0, -24.5, -22.0, -38.5, -13.5" strokeType="INSIDE" />
+      <Line endX="-44.0" endY="-10.5" layoutX="73.0" layoutY="82.0" startX="-60.0" startY="-38.0" stroke="#faf3d7" />
+      <Line endX="-98.0" endY="7.5" layoutX="134.0" layoutY="62.0" startX="-121.0" startY="-30.5" stroke="#faf3d7" />
+   </children>
+</AnchorPane>

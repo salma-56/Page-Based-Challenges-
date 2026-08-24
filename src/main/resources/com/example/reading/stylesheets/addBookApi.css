@@ -1,0 +1,38 @@
+.root{
+    -fx-background-color: #faf3d7;
+}
+
+/*
+#addBookButton{
+    -fx-background-color: #e1c4a5;
+}*/
+
+.button{
+    -fx-background-color: #e1c4a5;
+}
+
+#manualToggle {
+    -fx-background-color: #e6ade6;
+}
+
+#addBookButton{
+    -fx-background-color: #b2f3a9;
+}
+
+#bookSearchTitle {
+    -fx-font-family: "Palatino Linotype", Georgia;
+    -fx-font-weight: bold;
+}
+
+Text{
+  -fx-font-family: "Book Antiqua";
+}
+
+.combo-box{
+    -fx-background-color: #e6ade6;
+}
+
+#confirmationLabel {
+    -fx-font-family: "Palatino Linotype", Georgia;
+    -fx-font-size: 12;
+}

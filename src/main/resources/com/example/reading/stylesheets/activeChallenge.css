@@ -1,0 +1,25 @@
+.root{
+    -fx-background-color: #faf3d7 ;
+}
+
+.button {
+    -fx-background-color: #e1c4a5;
+}
+
+#updateButton{
+    -fx-background-color: #b2f3a9;
+}
+
+#removeChallengeButton{
+    -fx-background-color: #ee7878;
+}
+
+#activeChallengeList{
+    -fx-background-color: #faf3d7;
+}
+
+
+
+Text{
+    -fx-font-family: "Palatino Linotype", Georgia;
+}

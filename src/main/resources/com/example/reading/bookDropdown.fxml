@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<HBox fx:id="hbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="31.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="cover" fitHeight="32.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true" />
+      <VBox prefHeight="34.0" prefWidth="318.0">
+         <children>
+            <Label fx:id="book" prefHeight="17.0" prefWidth="250.0" text="book" />
+            <Label fx:id="author" prefHeight="17.0" prefWidth="283.0" text="author" />
+         </children>
+      </VBox>
+   </children>
+</HBox>

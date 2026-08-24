@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Polyline?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<HBox fx:id="outerBox" prefHeight="268.0" prefWidth="526.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.reading.randomiser.RandomiserController">
+   <children>
+      <Label prefHeight="268.0" prefWidth="61.0" />
+      <Text strokeType="OUTSIDE" strokeWidth="0.0" />
+      <HBox fx:id="bookHbox1" prefHeight="268.0" prefWidth="273.0">
+         <children>
+            <VBox prefHeight="268.0" prefWidth="89.0">
+               <children>
+                  <Label prefHeight="38.0" prefWidth="101.0" />
+                  <ImageView fx:id="bookCover1" fitHeight="136.0" fitWidth="91.0" pickOnBounds="true" preserveRatio="true" />
+                  <Separator prefHeight="20.0" prefWidth="99.0" />
+                  <Button fx:id="addBook1" mnemonicParsing="false" onAction="#selectBook1" prefHeight="48.0" prefWidth="99.0" text="Choose" textAlignment="JUSTIFY" />
+                  <Separator prefHeight="13.0" prefWidth="101.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="1" />
+               </children>
+            </VBox>
+            <HBox prefHeight="268.0" prefWidth="14.0">
+               <children>
+                  <Separator orientation="VERTICAL" prefHeight="263.0" prefWidth="27.0" />
+               </children></HBox>
+            <VBox prefHeight="268.0" prefWidth="126.0">
+               <children>
+                  <HBox prefHeight="13.0" prefWidth="115.0" />
+                  <Label prefHeight="47.0" prefWidth="140.0" text="Book 1" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bookName1" prefHeight="39.0" prefWidth="138.0" text="Label">
+                     <font>
+                        <Font size="10.0" />
+                     </font></Label>
+                  <Label fx:id="authorName1" prefHeight="43.0" prefWidth="148.0" text="Label">
+                     <font>
+                        <Font size="10.0" />
+                     </font></Label>
+                  <Label fx:id="totalPage1" prefHeight="49.0" prefWidth="151.0" text="Label">
+                     <font>
+                        <Font size="10.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Polyline fill="#887c67" points="-50.0, -40.0, -50.0, 228.0, -65.5, 228.0, -65.5, -40.0" stroke="#887c67" strokeType="INSIDE" />
+      <Label prefHeight="268.0" prefWidth="61.0" />
+      <HBox fx:id="bookHbox2" prefHeight="268.0" prefWidth="289.0">
+         <children>
+            <VBox prefHeight="232.0" prefWidth="95.0">
+               <children>
+                  <Label prefHeight="38.0" prefWidth="99.0" />
+                  <ImageView fx:id="bookCover2" fitHeight="132.0" fitWidth="95.0" pickOnBounds="true" preserveRatio="true" />
+                  <Separator prefHeight="28.0" prefWidth="95.0" />
+                  <Button fx:id="addBook2" mnemonicParsing="false" onAction="#selectBook2" prefHeight="51.0" prefWidth="94.0" text="Choose" textAlignment="JUSTIFY" />
+                  <Separator prefHeight="17.0" prefWidth="95.0" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="2" />
+               </children>
+            </VBox>
+            <HBox prefHeight="268.0" prefWidth="12.0" />
+            <VBox prefHeight="268.0" prefWidth="124.0">
+               <children>
+                  <HBox prefHeight="13.0" prefWidth="115.0" />
+                  <Label prefHeight="41.0" prefWidth="147.0" text="Book 2" textAlignment="CENTER">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="bookName2" prefHeight="39.0" prefWidth="156.0" text="Label">
+                     <font>
+                        <Font size="10.0" />
+                     </font></Label>
+                  <Label fx:id="authorName2" prefHeight="43.0" prefWidth="148.0" text="Label">
+                     <font>
+                        <Font size="10.0" />
+                     </font></Label>
+                  <Label fx:id="totalPage2" prefHeight="49.0" prefWidth="151.0" text="Label">
+                     <font>
+                        <Font size="10.0" />
+                     </font></Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</HBox>

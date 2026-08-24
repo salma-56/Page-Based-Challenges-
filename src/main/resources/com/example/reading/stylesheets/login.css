@@ -1,0 +1,47 @@
+.root{
+    -fx-background-color: #dbc1ec;
+    -fx-font-family: "Palatino Linotype", "Georgia", serif;
+    -fx-background-image: url("floral.jpg") ;
+
+}
+
+#loginText{
+    -fx-font-weight: bold;
+    -fx-text-background-color: #514320;
+    -fx-font-size: 35;
+    -fx-font-family: "Palatino Linotype", "Georgia";
+}
+
+
+
+#usernameField{
+}
+
+#anchorTitle{
+    -fx-background-color: #f6e9c7;
+    -fx-shape: "M11 2A1 1 0 0011 3L10 4 6 4 5 3A1 1 0 005 2L6 1M6 1C6 1 6 1 6 1L10 1 11 2";
+}
+
+#loginText, #loginTitle{
+    -fx-font-family: "Palatino Linotype", "Georgia";
+}
+
+#loginBox{
+    -fx-background-color: #f6e9c7;
+}
+
+#loginButton{
+    -fx-background-color: #e1c4a5;
+}
+
+
+
+#bulletPoint1, #bulletPoint2{
+    -fx-shape: "M11 4A1 1 0 0011 6 1 1 0 0011 4";
+    -fx-border-color: #61400f;
+
+}
+
+#newUserButton{
+    -fx-background-color: pink;
+}

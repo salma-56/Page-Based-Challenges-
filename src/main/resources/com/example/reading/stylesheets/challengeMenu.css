@@ -1,0 +1,72 @@
+.root{
+    -fx-background-color: #faf3d7;
+    -fx-font-family: "Palatino Linotype", Georgia;
+}
+
+.button {
+    -fx-background-color: #e1c4a5 ;
+}
+
+.separator .line{
+    -fx-border-color: null;
+}
+#addChallenge{
+    -fx-background-color: #b2f3a9;
+}
+
+
+#challengeBoard {
+    -fx-background-color: rgba(255,229,208,0.6);
+    -fx-border-color: #e1c4a5;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-border-width: 0.2;
+
+}
+
+#pastAnchor{
+    -fx-background-color: rgb(250, 225, 215, 0.6);
+    -fx-border-color:  #fae1d7;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-border-width: 0.2;
+}
+
+VBox {
+    -fx-background-color: #ffe5d0;
+    -fx-border-color: #e1c4a5;
+    -fx-border-width: 0.8;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+#seeActiveChallengeButton {
+    -fx-background-color: #ffd0d2;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-color: #e1c4a5;
+    -fx-border-width: 0.8;
+}
+
+#seePastChallengesButton, #statisticsButton {
+    -fx-background-color: #ffd0d2;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+    -fx-border-width: 0.8;
+    -fx-border-color: #e1c4a5;
+    }
+
+Text{
+    -fx-font-family: "Palatino Linotype", Georgia;
+}
+
+.progress-bar{
+    -fx-background-color: #ffe5d0;
+    -fx-accent : #b3848d
+
+}
+
+
+
+
+

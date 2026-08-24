@@ -1,0 +1,66 @@
+/*.VBox{*/
+/*    -fx-shape: "M7 2Q6 2 6 3L6 3A1 1 0 005 2Q6 2 6 1 6 2 7 2";*/
+/*    -fx-background-color: yellow;*/
+/*}*/
+
+.root{
+    -fx-background-color: #010137;
+}
+
+#minutesLabel, #secondsLabel, #timeLabel{
+    -fx-text-fill: white;
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+}
+
+#paceLabel{
+    -fx-font-size: 14;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+
+
+#v1 {
+    -fx-shape: "M7 2Q6 2 6 3L6 3A1 1 0 005 2Q6 2 6 1 6 2 7 2";
+    -fx-background-color: yellow
+}
+
+#v2 {
+    -fx-shape: "M7 2Q6 2 6 3L6 3A1 1 0 005 2Q6 2 6 1 6 2 7 2";
+    -fx-background-color: yellow
+}
+
+#v3 {
+    -fx-shape: "M7 2Q6 2 6 3L6 3A1 1 0 005 2Q6 2 6 1 6 2 7 2";
+    -fx-background-color: yellow
+}
+
+#v4{
+    -fx-shape: "M7 2Q6 2 6 3L6 3A1 1 0 005 2Q6 2 6 1 6 2 7 2";
+    -fx-background-color: yellow
+}
+
+#v5, #v6, #v7, #v8, #v9, #v10{
+    -fx-shape: "M7 2Q6 2 6 3L6 3A1 1 0 005 2Q6 2 6 1 6 2 7 2";
+    -fx-background-color: white;
+
+}
+
+#startButton, #enterButton {
+    -fx-background-color: #9eecb0;
+}
+
+#backButton{
+    -fx-background-color: #98abf3;
+}
+
+.slider .track{
+    -fx-background-color: #faf3d7;
+}
+
+.slider .axis {
+    -fx-tick-label-fill: white;
+    -fx-tick-label-font-size : 14px;
+}
+

@@ -1,0 +1,44 @@
+.root{
+    -fx-background-color: #faf3d7;
+
+}
+
+#openChallengeList, #openTimer, #openReadingList {
+    /*-fx-shape: "M5 1 12 1 12 3 5 3C4 3 4 1 5 1L5 2Q4 3 6 2 4 1 5 2M12 1 11 2 12 3";*/
+   /*
+   -fx-shape: "M5 1 12 1 12 3 5 3C5 3 4 2 5 1L5 2C6 3 5 3 6 2 5 1 6 1 5 2M12 1 12 2 12 3" ;
+   */
+    -fx-shape: "M5 1 12 1 12 3 5 3C5 3 4 2 5 1M12 1 12 2 12 3";
+    -fx-font-family: "Palatino Linotype", Georgia, Verdana;
+    -fx-font-size: 15;
+}
+
+#logout{
+    -fx-background-color: #e1c4a5;
+    -fx-font-family: "Palatino Linotype", Georgia;
+}
+
+#contentsPageText {
+    -fx-font-family: "Palatino Linotype", Georgia, Verdana;
+    -fx-font-weight: bold;
+    -fx-font-size: 30;
+    
+}
+#openReadingList {
+    -fx-background-color: #b08cef;
+}
+
+#openChallengeList{
+    -fx-background-color: "pink";
+}
+
+#openTimer {
+    -fx-background-color: #98abf3;
+
+}
+
+#marginBox{
+    -fx-background-color: #853232;
+    -fx-shape: "M8 6 8-1 10-1 10 6M10 6 9 5 8 6";
+
+}
